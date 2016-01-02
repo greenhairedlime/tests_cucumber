@@ -2,7 +2,7 @@
 #              CHECKS              #
 ####################################
   Then /^fill in correct credentials in Getting Started section$/ do
-    SignUpPage.fill_get_start(firstname: 'Test',
+    SignUpPage.given.fill_get_start(firstname: 'Test',
                              lastname: 'Kepler',
                              email: settings.def_test_user,
                              rtpemail: settings.def_test_user,
@@ -12,7 +12,7 @@
   end
 
   Then /^fill in incorrect credentials in Getting Started section$/ do
-    SignUpPage.fill_get_start(firstname: 'Test',
+    SignUpPage.given.fill_get_start(firstname: 'Test',
                               lastname: 'Kepler',
                               email: settings.def_test_user,
                               rtpemail: 'user@maiol.com',
@@ -26,5 +26,5 @@
   end
 
   And /^click next button$/ do
-    SignUpPage.click_next('PersonalDetails')
+    SignUpPage.given.click_next('PersonalDetails')
   end
