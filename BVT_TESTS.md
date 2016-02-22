@@ -37,6 +37,9 @@
     - sign up with invalid credentials
     - sign up with already existing email
 
+- **Tips & Tricks Functionality**
+    - filter articles
+
 ##Priority 1
 
 - **Budget Functionality**
@@ -56,6 +59,10 @@
 
 - **Guestlist Functionality**
     - change guest category and attending
+    - edit guest name
+    - remove a guest
+    - show and hide filters
+    - filter guests by category
 
 - **Login And Logout**
     - login with incorrect data
@@ -68,7 +75,20 @@
     - remove unbooked supplier from shortlist
     - visit unbooked supplier details page
 
+- **Tips & Tricks Functionality**
+    - show and hide filters
+
 ### Priority 2
+
+- **Sign Up**
+    - sign up with wrong credentials
+        - *invalid email (incorrect domain) and correct password*
+        - *invalid email (with 2 symbols `@`) and correct password*
+        - *invalid email (with symbol `#`) and correct password*
+        - *correct email and invalid password (with 4 characters)*
+    - sign up with empty email or password
+        - *correct email and empty password*
+        - *empty email and correct password*
 
 - **Login And Logout**
     - login with empty or incorrect data
@@ -77,3 +97,10 @@
         - *unregistered email and password*
         - *invalid email (to symbols `@`) unregistered password*
         - *invalid email (with symbol `#`) unregistered password*
+
+- **Tips & Tricks Functionality**
+    -  sign up for newsletters with incorrect credentials
+        - *correct email and empty password*
+        - *empty email and correct password*
+        - *empty email and password*
+    -  leave comment under article
