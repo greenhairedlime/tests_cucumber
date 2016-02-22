@@ -1,4 +1,4 @@
-## Build Verification Tests
+### Build Verification Tests
 
 - **Budget Functionality**
     - calculate estimates after entering total budget
@@ -40,7 +40,7 @@
 - **Tips & Tricks Functionality**
     - filter articles
 
-##Priority 1
+### Priority 1
 
 - **Budget Functionality**
     - add new item
@@ -104,3 +104,4 @@
         - *empty email and correct password*
         - *empty email and password*
     -  leave comment under article
+
